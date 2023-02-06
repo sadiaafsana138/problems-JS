@@ -77,7 +77,7 @@ function isLGSeven(num) {
     }
 }
 
-const a = isLGSeven(50);
+const a = isLGSeven(6);
 console.log(a);
 
 /*

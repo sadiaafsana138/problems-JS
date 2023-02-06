@@ -8,17 +8,17 @@ Input: 5
 Output: 7.5 
 
 */
-function mindGame(num) {
-    if (typeof num == "number" && num > 0) {
-        let result = parseFloat((((num * 3) + 10) / 2) - 5);
-        return result;
+function mindGame(num){
+    if(typeof num == "number" && num > 0){
+           let result = parseFloat((((num*3)+10)/2)-5);
+           return result ;
     }
-    else {
-        console.log("please enter a positive number")
-    }
+    else{
+            console.log("please enter a positive number")
+    } 
 }
-//const a = mindGame("P");
-//console.log(a);
+const a = mindGame("P");
+console.log(a);
 
 
 
@@ -31,23 +31,23 @@ String এ total কয়টা character আছে তার উপর ভি�
 Sample Input & Output:
 Input: ‘Phero’
 Output: odd
-*/
+*/ 
 
 function evenOdd(str) {
     if (typeof str == "string") {
         if ((str.length) % 2 == 0) {
-            let out = "even";
-            return out;
+                let out = "even";
+                return out;
         }
         else {
             let out = "odd";
             return out;
-        }
+        } 
     }
     else {
         console.log("Please enter a string");
     }
-
+    
 }
 //var a = evenOdd("sadia3");
 //console.log(a);
@@ -55,30 +55,13 @@ function evenOdd(str) {
 /*
 Problem 3: Is Less or Greater than seven
 
-একটা function called isLGSeven()” ইনপুট হিসেবে একটা number নিবে।  
+একটা function called “isLGSeven()” ইনপুট হিসেবে একটা number নিবে।  
 ইনপুট ভ্যালু এবং ৭ এর মধ্যে পার্থক্য বের করতে হবে। যদি এই পার্থক্য ৭ এর চেয়ে ছোট হয়, তখন return করতে হবে সেই বিয়োগফল। নাহলে return করতে হবে double of the input। মানে যে সংখ্যা ইনপুট হিসেবে নিয়েছো সেটির দ্বিগুণ।
 
 Input : 6
 Output: -1
-*/
+*/ 
 
-function isLGSeven(num) {
-    if (typeof num == "number") {
-        let sub_result = num - 7;
-        if (sub_result < 7) {
-            return sub_result;
-        }
-        else {
-            return 2 * num;
-        }
-    }
-    else {
-        console.log("please enter a number");
-    }
-}
-
-const a = isLGSeven(50);
-console.log(a);
 
 /*
 Problem 4: Finding Bad data
@@ -110,7 +93,7 @@ Sample Input & Output:-
 
 Input: 1, 1, 1
 Output:96
-*/
+*/ 
 
 
 
@@ -143,5 +126,5 @@ Output:96
 
 
 
-/**/
+/**/ 
 
