@@ -42,14 +42,15 @@ function evenOdd(str) {
         else {
             let out = "odd";
             return out;
-        } 
+        }
+        
     }
     else {
-        console.log("Please enter a string");
+        console.log("Please enter a string")
     }
     
 }
-var a = evenOdd("sadia3");
+const a = evenOdd(sadia)
 console.log(a);
 
 /*

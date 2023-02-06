@@ -35,6 +35,7 @@ Output: odd
 
 function evenOdd(str) {
     if (typeof str == "string") {
+        //let len = str.length;
         if ((str.length) % 2 == 0) {
                 let out = "even";
                 return out;
@@ -49,7 +50,7 @@ function evenOdd(str) {
     }
     
 }
-var a = evenOdd("sadia3");
+var a = evenOdd("sadia");
 console.log(a);
 
 /*

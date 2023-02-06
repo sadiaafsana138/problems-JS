@@ -33,24 +33,6 @@ Input: ‘Phero’
 Output: odd
 */ 
 
-function evenOdd(str) {
-    if (typeof str == "string") {
-        if ((str.length) % 2 == 0) {
-                let out = "even";
-                return out;
-        }
-        else {
-            let out = "odd";
-            return out;
-        } 
-    }
-    else {
-        console.log("Please enter a string");
-    }
-    
-}
-var a = evenOdd("sadia3");
-console.log(a);
 
 /*
 Problem 3: Is Less or Greater than seven
