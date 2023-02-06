@@ -106,8 +106,8 @@ function findingBadData(array) {
     }
 }
 
-//let a = [-8,6,5,3,-1,0];
-console.log(findingBadData("hghghg"));
+let a = [2,5,-8,6,5,3,-1,0];
+console.log(findingBadData(a));
 
 /*
 Problem 5: Convert your gems into diamond
