@@ -52,7 +52,6 @@ function evenOdd(str) {
 //var a = evenOdd("sadia3");
 //console.log(a);
 
-
 /*
 Problem 3: Is Less or Greater than seven
 
@@ -80,8 +79,6 @@ function isLGSeven(num) {
 //const a = isLGSeven(50);
 //console.log(a);
 
-
-
 /*
 Problem 4: Finding Bad data
 
@@ -95,7 +92,7 @@ Output: 0
 */
 
 function findingBadData(array) {
-    if (typeof array == "object.Array") {
+    if (typeof array == "object") {
         let count = 0;
         for (let i = 0; i <= (array.length) - 1; i++) {
             if (array[i] < 0) {
@@ -110,10 +107,7 @@ function findingBadData(array) {
 }
 
 //let a = [-8,6,5,3,-1,0];
-//const car = {type:"Fiat", model:"500", color:"white"};
 //console.log(findingBadData(a));
-
-
 
 /*
 Problem 5: Convert your gems into diamond
@@ -134,24 +128,24 @@ Input: 1, 1, 1
 Output:96
 */
 
-function gemsToDiamond(gems1, gems2, gems3) {
-    if (typeof gems1 == "number" && typeof gems2 == "number" && typeof gems3 == "number") {
-        let Total = ((gems1 * 21) + (gems2 * 32) + (gems3 * 43));
-        if (Total > 2 * 1000) {
-            let rest_diamond = Total - 2000;
+function gemsToDiamond(gems1,gems2,gems3){
+    if(gems1=="number"&& gems2=="number" && gems3=="number"){
+        let Total = ((gems1*21)+(gems2*32)+(gems3*43));
+        if(Total > 2*1000){
+            let rest_diamond = Total -2000;
             return rest_diamond;
         }
-        else {
+        else{
             return Total;
         }
     }
-    else {
+    else{
         console.log("enter 3 numbers")
     }
 }
 
-
-//console.log(gemsToDiamond(3,0,8));
+const a = gemsToDiamond(3,-9,8);
+console.log(a);
 
 
 
